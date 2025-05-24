@@ -1,0 +1,64 @@
+<!--Los formularios estan organizados por un section general-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Formularios - Dia 04</h1>
+    <hr>
+    <section>
+        <article>
+            <h2>Ingrese su mensaje</h2>
+            <legend>Envíame un mensaje</legend>
+            <form action="/send" method="post">
+                <input type="text" id="name" name="name" required placeholder="Ingrese su nombre" style="border: 1px solid rgb(170, 45, 45); margin: 10px; padding: 5px;"><br><br>
+                <input type="email" id="email" name="email" minlength="5" required placeholder="Ingrese su email" style="border: 1px solid rgb(170, 45, 45); margin: 10px; padding: 5px;"><br><br>
+                <input type="password" id="contraseña" name="password" placeholder="Ingrese la contraseña" style="border: 1px solid rgb(170, 45, 45); margin: 10px; padding: 5px;"><br><br>
+                <textarea type="text" id="message" rows="4" minlength="12" required placeholder="Mensaje" style="border: 1px solid rgb(170, 45, 45); margin: 10px; padding: 5px;"></textarea><br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reinicar">
+            <h2>Menú desplegable</h2>
+            <select>
+                <option value="opcion1">Opción 1</option>
+                <option value="opcion2">Opción 2</option>
+                <option value="opcion3">Opción 3</option>
+            </select>
+        </article>
+        <hr>
+        <article>
+            <h2>Casillas de verificación</h2>
+            <h3>¿Qué lugares has visitado?</h3>
+            <fieldset>Opciones
+            <form>
+                <label for="opcion1">Colombia</label>
+                <input type="checkbox" id="option1" name="opcion1">
+                <label for="opcion2">Argentina</label>
+                <input type="checkbox" id="option2" name="opcion2">
+                <label for="opcion3">México</label>
+                <input type="checkbox" id="option3" name="opcion3"><br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reinicar">
+            </form>
+            </fieldset>
+        </article>
+        <hr>
+        <h2>Casillas de Radio</h2>
+        <h3>¿Qué tipo de mascota tienes?</h3>
+        <form>
+            <label for="opcion1">Perros</label>
+            <input type="radio" id="option1" name="opcion1">
+            <label for="opcion2">Gatos</label>
+            <input type="radio" id="option2" name="opcion2">
+            <label for="opcion3">Peces</label>
+            <input type="radio" id="option3" name="opcion3"><br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reinicar">
+        </form>
+    </section>
+    <hr>
+      
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Formularios - Dia 04</h1>
+    <hr>
+    <section>
+        <!--Le pedimos nombre, email y mensaje al usuario-->
+        <h2>Ingrese su mensaje</h2>
+        <!--Ingresamos las validaciones-->
+        <input type="text" id="name" name="name" required placeholder="Ingrese su nombre"><br><br>
+        <input type="email" id="email" name="email" minlength="5" required placeholder="Ingrese su email"><br><br>
+        <!--Añadimos el campo de contraseña-->
+        <input type="password" id="contraseña" name="password" placeholder="Ingrese la contraseña"><br><br>
+        <textarea type="text" id="message" rows="4" minlength="12" required placeholder="Mensaje"></textarea>
+        <h2>Menú desplegable</h2>
+        <!--Se agrega un menú con tres opciones-->
+        <select>
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+        </select>
+    </section>
+      
+</body>
+</html>
