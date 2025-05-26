@@ -61,8 +61,3 @@ ejercicios-html-css/
 Este proyecto está bajo la licencia MIT. Puedes usarlo libremente con fines educativos y personales.
 
 ---
-
-## Autor
-
-**Ramiro Grisales**  
-
