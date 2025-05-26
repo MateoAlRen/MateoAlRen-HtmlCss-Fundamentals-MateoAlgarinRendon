@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Steam</title>
+    <style>
+    table {
+        border: 4px solid rgb(32, 31, 31);
+        border-collapse: collapse;
+        width: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        color: #222;
+    }
+
+    thead th {
+        background-color: rgb(176, 183, 189);
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    tbody td {
+        border: 1px solid rgb(29, 26, 26);
+        padding: 10px;
+    }
+
+    tbody tr:last-child td {
+        background-color: rgb(175, 173, 173);
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0%;
+    }
+
+    ol {
+        list-style-type: upper-roman;
+        color: rgb(74, 74, 82);
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    ul li::before {
+        content: "🎮";
+    }
+
+    ul li {
+        font-size: 16px;
+        color: rgb(67, 73, 67);
+    }
+
+    h1 {
+        font-size: 28px;
+        color: rgb(109, 121, 121);
+        font-family: sans-serif;
+    }
+
+    h2 {
+        font-size: 28px;
+        color: rgb(84, 86, 88);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    ol, dl, ul {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(83, 95, 95);
+    }
+
+    .destacado {
+        background-color: rgb(175, 193, 206);
+        color: #1f201e;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    </style>
+</head>
+<body>
+
+<h1>Steam - Juegos en Tendencia</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Juego</th>
+            <th>Género</th>
+            <th>Precio</th>
+            <th>Popularidad</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="destacado">Elden Ring</td>
+            <td>RPG</td>
+            <td>$59.99</td>
+            <td>★★★★★</td>
+        </tr>
+        <tr>
+            <td class="destacado">Counter-Strike 2</td>
+            <td>Shooter</td>
+            <td>Gratis</td>
+            <td>★★★★☆</td>
+        </tr>
+        <tr>
+            <td class="destacado">Stardew Valley</td>
+            <td>Simulación</td>
+            <td>$14.99</td>
+            <td>★★★★★</td>
+        </tr>
+        <tr>
+            <td colspan="4">Top ventas de la semana</td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+
+<h2>Categorías Populares</h2>
+<ul>
+    <li>Acción</li>
+    <li>Aventura</li>
+    <li>Simulación</li>
+    <li>Multijugador</li>
+</ul>
+
+<h2>Pasos para jugar en Steam</h2>
+<ol>
+    <li>Descargar Steam</li>
+    <li>Crear una cuenta</li>
+    <li>Comprar o descargar juegos</li>
+</ol>
+
+</body>
+</html>

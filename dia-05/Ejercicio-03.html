@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Tablas" content="Educacion">
+    <title>Dia-05 - Tablas</title>
+</head>
+<body>
+<h1>Tablas</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Edad</th>
+            <th>EPS</th>
+            <th>Ocupacion</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Juan</td>
+            <td>Gonzales</td>
+            <td>30</td>
+        <!--Uso el rowspan para ocupar tres lineas verticales por afiliacion-->
+            <td rowspan="3">Sura</td>
+            <td>Abogado</td>
+        </tr>
+        <tr>
+            <td>Michael</td>
+            <td>Gomez</td>
+            <td>25</td>
+            <td>Contador</td>
+        </tr>
+        <tr>
+            <td>Camilo</td>
+            <td>Isaza</td>
+            <td>27</td>
+            <td>Doctor</td>
+        </tr>
+        <!--Uso el colspan para abarcar 5 lineas horizontales-->
+        <tr>
+        <td colspan="5" style="text-align: center;">Afiliados</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
